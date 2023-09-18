@@ -1,0 +1,62 @@
+header {
+  overflow: hidden;
+  height: 80px;
+  margin: auto;
+  min-width: 1280px;
+  position: relative;
+}
+header div.wrap {
+  position: relative;
+}
+header div.wrap h1 {
+  width: 10%;
+  height: 100px;
+  background-image: url(../img/icon.png);
+  position: absolute;
+  max-width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 10vh;
+}
+header div.wrap ul.list {
+  display: flex;
+  justify-content: center;
+  padding: 33px 1.8vw;
+  gap: 100px;
+}
+header div.wrap ul.list li {
+
+}
+header div.wrap ul.list li a {
+  color: white;
+  opacity: 1;
+}
+header div.wrap ul.list2{
+  
+}
+header div.wrap ul.list2 li{ 
+  position: absolute;
+  right: 0vh;
+  width: 100px;
+  height: 30px;
+  top: 3vh;
+}
+header div.wrap ul.list2 li a{  
+  font-size: 0;
+  width: 21px;
+  height: 21px;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+header div.wrap ul.list2 li a::before{
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: block;
+  background-color: white;
+  transform: translateY(-0.5px);
+}
